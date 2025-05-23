@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #673ab7;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.download-btn {
+  background-color: #ff9800;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #e68900;
+}
+
+.features {
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #673ab7;
+}
+
+.features ul {
+  max-width: 600px;
+  margin: auto;
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+.features li {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.features li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #4caf50;
+}
+
+footer {
+  text-align: center;
+  background-color: #212121;
+  color: #aaa;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
